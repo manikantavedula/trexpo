@@ -4,6 +4,7 @@ import CallIcon from "@mui/icons-material/Call";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import "./style.css";
 import { Col, Row } from "react-bootstrap";
+import { Facebook, LinkedIn } from "@mui/icons-material";
 
 function Footer() {
   return (
@@ -18,13 +19,20 @@ function Footer() {
         <i>
           <CallIcon />
         </i>
-        <p>+91 **********</p>
+        <p>+91 9063214420</p>
       </div>
       <div className="footer-items">
         <i>
           <InstagramIcon />
         </i>
-        <p>trexpo</p>
+
+        <i>
+          <Facebook />
+        </i>
+
+        <i>
+          <LinkedIn />
+        </i>
       </div>
     </footer>
   );

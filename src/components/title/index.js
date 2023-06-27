@@ -22,9 +22,9 @@ function Title() {
         <Row className="justify-content-md-center title-section">
           <Col md="auto" className="justify-content-md-center tr-expo">
             <div className="title">
-              <span>TR</span>EXPO
+              <span>TR </span> EXPO
             </div>
-            <div className="subtitle">Angelo Brewing</div>
+            <div className="subtitle">Telangana Real Estate Expo</div>
           </Col>
 
           <Col md="auto" className="d-none d-lg-block">

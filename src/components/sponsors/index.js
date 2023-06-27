@@ -8,8 +8,8 @@ function Sponsers() {
     <>
       <p class="marquee">
         <span>
-          <img src={logo} alt="Logo" width={85} /> This is Confex Sponser -{" "}
-          <img src={logo1} alt="Logo" width={85} /> This is Trexpo Sponser
+          <img src={logo} alt="Logo" width={85} />
+          <img src={logo1} alt="Logo" width={85} />
           &nbsp;
         </span>
       </p>
