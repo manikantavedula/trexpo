@@ -1,0 +1,81 @@
+#title {
+  height: calc(100vh - 90px - 140px);
+  position: relative;
+}
+
+img.circle {
+  margin-left: -175px;
+  margin-top: -65px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+div.title-section {
+  align-items: center;
+  position: relative;
+  z-index: 9;
+  margin-top: 100px;
+  padding: 70px;
+}
+
+div.title-section div.tr-expo {
+  line-height: 0.8;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+div.title-section div.tr-expo div.title {
+  font-size: calc(5vw + 5vh + 2vmin);
+  font-family: "League Spartan";
+  font-weight: 900;
+  color: #000;
+}
+
+div.title-section div.tr-expo div.title span {
+  color: #3d92a2 !important;
+}
+
+div.title-section div.tr-expo div.subtitle {
+  font-size: calc(1vw + 2vh + 1vmin);
+  font-family: "Sanchez";
+}
+
+.register {
+  position: absolute;
+  z-index: 9;
+  bottom: 0px;
+  text-align: center;
+}
+
+.register button.register-btn {
+  background-color: black;
+  border-color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+.register button:hover {
+  background-color: #3d92a2 !important;
+  border-color: #3d92a2 !important;
+  color: #000;
+}
+
+@keyframes arrowAnimation {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.register div.arrow-down {
+  margin: 0 auto;
+  margin-top: 40px;
+  animation: arrowAnimation 1s infinite;
+}
