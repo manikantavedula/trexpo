@@ -5,33 +5,44 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import "./style.css";
 import { Col, Row } from "react-bootstrap";
 import { Facebook, LinkedIn } from "@mui/icons-material";
+import {
+  IconBrandFacebook,
+  IconBrandInstagram,
+  IconBrandLinkedin,
+  IconMail,
+  IconPhoneCall,
+} from "@tabler/icons-react";
 
 function Footer() {
   return (
     <footer className="footer footer-center">
-      <div className="footer-items">
+      <div className="footer-items mail">
         <i>
-          <EmailIcon />
+          <IconMail />
         </i>
-        <p>info@trexpo.in</p>
+        <p>
+          <a href="mailto:info@trexpo.in">info@trexpo.in</a>
+        </p>
+      </div>
+      <div className="footer-items call">
+        <i>
+          <IconPhoneCall />
+        </i>
+        <p>
+          <a href="tel:+919063214420">+91 9063214420</a>
+        </p>
       </div>
       <div className="footer-items">
         <i>
-          <CallIcon />
-        </i>
-        <p>+91 9063214420</p>
-      </div>
-      <div className="footer-items">
-        <i>
-          <InstagramIcon />
+          <IconBrandInstagram />
         </i>
 
         <i>
-          <Facebook />
+          <IconBrandFacebook />
         </i>
 
         <i>
-          <LinkedIn />
+          <IconBrandLinkedin />
         </i>
       </div>
     </footer>

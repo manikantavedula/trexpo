@@ -5,21 +5,21 @@
 
 img.circle {
   margin-left: -175px;
-  margin-top: -65px;
+  margin-top: -118px;
   position: absolute;
   z-index: 1;
   opacity: 0.5;
+  width: calc(85vh);
+  height: calc(85vh);
 }
 
-div.title-section {
+#title .title-section {
   align-items: center;
   position: relative;
   z-index: 9;
-  margin-top: 100px;
-  padding: 70px;
 }
 
-div.title-section div.tr-expo {
+.title-section .tr-expo {
   line-height: 0.8;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@ div.title-section div.tr-expo {
   align-items: center;
 }
 
-div.title-section div.tr-expo div.title {
+.title-section .tr-expo .title {
   font-size: calc(5vw + 5vh + 2vmin);
   font-family: "League Spartan";
   font-weight: 700;
@@ -35,19 +35,23 @@ div.title-section div.tr-expo div.title {
   color: #000;
 }
 
-div.title-section div.tr-expo div.title span {
+.title-section .tr-expo .title span {
   color: #3d92a2 !important;
 }
 
-div.title-section div.tr-expo div.subtitle {
+.title-section .tr-expo .subtitle {
   font-size: calc(1vw + 2vh + 1vmin);
   font-family: "Sanchez";
+}
+
+.title-section img.title-building {
+  width: 100%;
 }
 
 .register {
   position: absolute;
   z-index: 9;
-  bottom: 0px;
+  bottom: 10px;
   text-align: center;
 }
 

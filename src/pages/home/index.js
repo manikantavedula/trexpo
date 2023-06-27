@@ -1,13 +1,13 @@
 import React from "react";
 import Title from "../../components/title";
-import HomeEvent from "../../components/homeEvent";
-import "./Home.css";
+import MentorsPara from "../../components/mentorsPara";
+import "./style.css";
 
 const Home = () => {
   return (
     <div className="home-container">
       <Title />
-      <HomeEvent />
+      <MentorsPara />
     </div>
   );
 };

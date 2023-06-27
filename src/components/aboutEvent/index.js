@@ -4,13 +4,13 @@ import "./style.css";
 
 function HomeEvent() {
   return (
-    <Container className="home-event">
+    <Container className="about-event">
       <Row>
         <Col sm={12} md={6} lg={6}>
           <Container>
             <Row>
               <Col>
-                <div className="home-event-title">About the Event</div>
+                <div className="about-event-title">About the Event</div>
               </Col>
             </Row>
 

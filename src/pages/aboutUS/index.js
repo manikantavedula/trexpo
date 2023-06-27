@@ -107,6 +107,12 @@ const Home = () => {
           </Container>
         </Col>
       </Row>
+
+      <Row className="our-pocs">
+        <Col>
+          <div>OUR POINT OF CONTACTS</div>
+        </Col>
+      </Row>
     </Container>
   );
 };

@@ -1,0 +1,47 @@
+.about-event {
+  padding: 70px;
+}
+
+.about-event-title {
+  font-size: calc(2vw + 2vh + 2vmin);
+  text-align: center;
+  font-family: "Forum";
+}
+
+.about-event .event-para {
+  font-family: "EB Garamond";
+  text-align: center;
+}
+
+.about-event .event-image {
+  width: 100%;
+  height: 100%;
+  /* background-color: #76aeb8; */
+  position: relative;
+}
+
+.about-event .event-image::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../assets/images/building1_half.png");
+  /* width: 100%;
+  height: 62px; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 11;
+}
+
+.about-event .event-image::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../assets/images/model1.png");
+  width: 100%;
+  height: 440px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 11;
+}

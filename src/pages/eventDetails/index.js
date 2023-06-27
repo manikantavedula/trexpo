@@ -1,12 +1,12 @@
 import React from "react";
-import "./EventDetails.css"
-
+import "./style.css";
+import HomeEvent from "../../components/aboutEvent";
 
 const Home = () => {
-    return (
-        <div>
-           eventDetails
-        </div>
-    )
-}
+  return (
+    <div className="event-details">
+      <HomeEvent />
+    </div>
+  );
+};
 export default Home;

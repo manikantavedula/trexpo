@@ -1,20 +1,29 @@
-import React, { useState } from "react";
+import React, { useLayoutEffect, useState } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import Sponsers from "../sponsors";
 import logo from "../../assets/images/image.png";
 import logo1 from "../../assets/images/logo.png";
 import "./style.css";
 
 const Header = () => {
+  const location = useLocation();
   const [selectedTab, setSelectedTab] = useState(0);
   const navItems = [
-    { name: "Home", path: "/home" },
+    { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us" },
-    { name: "Event", path: "/event-details" },
+    { name: "Event Details", path: "/event-details" },
     { name: "Register", path: "/register" },
     { name: "Contact Us", path: "/contact-us" },
   ];
+
+  useLayoutEffect(() => {
+    console.log(location.pathname);
+    if (location.pathname) {
+      const index = navItems.findIndex((v, i) => v.path === location.pathname);
+      handleNavClick(index);
+    }
+  }, [location]);
 
   const handleNavClick = (index) => {
     setSelectedTab(index);
@@ -22,7 +31,7 @@ const Header = () => {
 
   return (
     <>
-      <Navbar bg="#d3dade" expand="lg">
+      <Navbar bg="#d3dade" expand="lg" className="header">
         <Container>
           <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" width={120} />

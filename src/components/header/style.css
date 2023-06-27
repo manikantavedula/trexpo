@@ -5,6 +5,10 @@ body {
   }
 }
 
+.header {
+  padding-left: calc(100vw - 100%) !important;
+}
+
 .navbar {
   height: 90px;
 }

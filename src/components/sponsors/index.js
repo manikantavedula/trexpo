@@ -6,7 +6,7 @@ import "./style.css";
 function Sponsers() {
   return (
     <>
-      <p class="marquee">
+      <p className="marquee">
         <span>
           <img src={logo} alt="Logo" width={85} />
           <img src={logo1} alt="Logo" width={85} />

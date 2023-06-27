@@ -16,19 +16,19 @@ function Title() {
 
   return (
     <div id="title">
-      <img src={circle} className="circle" alt="Circle" width={500} />
+      <img src={circle} className="circle" alt="Circle" />
 
       <Container>
         <Row className="justify-content-md-center title-section">
-          <Col md="auto" className="justify-content-md-center tr-expo">
+          <Col sm={12} md={6} className="justify-content-md-center tr-expo">
             <div className="title">
               <span>TR </span> EXPO
             </div>
             <div className="subtitle">Telangana Real Estate Expo</div>
           </Col>
 
-          <Col md="auto" className="d-none d-lg-block">
-            <img src={building1} alt="Building" width={400} />
+          <Col sm={12} md={6}>
+            <img className="title-building" src={building1} alt="Building" />
           </Col>
         </Row>
       </Container>
