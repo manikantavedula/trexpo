@@ -1,29 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.7857a86d.css",
-    "main.js": "/static/js/main.f7613716.js",
+    "main.css": "/static/css/main.75f07034.css",
+    "main.js": "/static/js/main.a41afc1f.js",
     "static/js/787.853de325.chunk.js": "/static/js/787.853de325.chunk.js",
-    "static/media/model1.png": "/static/media/model1.5b73ff8104ce8120493a.png",
+    "static/media/mentor4.jpg": "/static/media/mentor4.cebf63ef42dea9180fb6.jpg",
+    "static/media/event12.jpg": "/static/media/event12.247dd5aaf7b26800e977.jpg",
+    "static/media/poc1.png": "/static/media/poc1.71f07c890a71fb97f4b6.png",
+    "static/media/mentor3.jpg": "/static/media/mentor3.b2684ecefcf07dc81983.jpg",
     "static/media/image-019.jpg": "/static/media/image-019.020b1ad0e2bdbc70ab54.jpg",
     "static/media/image-023.jpg": "/static/media/image-023.c808ded52d8d6756ee1a.jpg",
     "static/media/image-034.jpg": "/static/media/image-034.b2fa05ca5e4461f2ff62.jpg",
     "static/media/image-001.jpg": "/static/media/image-001.37c4e71a7491a7e7fbe8.jpg",
     "static/media/image-012.jpg": "/static/media/image-012.53a0c8a66b492097af14.jpg",
+    "static/media/media-reach.png": "/static/media/media-reach.174cbe6b56b99c1a7736.png",
     "static/media/image.png": "/static/media/image.a7a0163425293af36982.png",
+    "static/media/goal.png": "/static/media/goal.cd344d1bb092ea8b9260.png",
     "static/media/image-030.jpg": "/static/media/image-030.ca810de4c2355ec34f0c.jpg",
     "static/media/logo.png": "/static/media/logo.fb7f45515ee53b1050b8.png",
     "static/media/circle.png": "/static/media/circle.53a0047f4d8a1357cc3a.png",
+    "static/media/mentor2.jpeg": "/static/media/mentor2.986141c20fb63c73e946.jpeg",
     "static/media/building.png": "/static/media/building.0f1770e653c60b0e4369.png",
     "static/media/footer-buildings.png": "/static/media/footer-buildings.1ee04f0b9d86c1b064f3.png",
+    "static/media/mentor1.jpeg": "/static/media/mentor1.e5d126274fbe5113af77.jpeg",
     "static/media/building1_half.png": "/static/media/building1_half.ad4d27dc127166405944.png",
     "static/media/building2.png": "/static/media/building2.721ff3984da73a913023.png",
     "index.html": "/index.html",
-    "main.7857a86d.css.map": "/static/css/main.7857a86d.css.map",
-    "main.f7613716.js.map": "/static/js/main.f7613716.js.map",
+    "main.75f07034.css.map": "/static/css/main.75f07034.css.map",
+    "main.a41afc1f.js.map": "/static/js/main.a41afc1f.js.map",
     "787.853de325.chunk.js.map": "/static/js/787.853de325.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7857a86d.css",
-    "static/js/main.f7613716.js"
+    "static/css/main.75f07034.css",
+    "static/js/main.a41afc1f.js"
   ]
 }
