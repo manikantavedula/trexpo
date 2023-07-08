@@ -1,0 +1,17 @@
+.register-page {
+  margin-top: 30px;
+  padding: 70px;
+}
+
+.register-page .image-section {
+  text-align: center;
+}
+
+.register-page .image-section .layout-title {
+  font-family: "League Spartan";
+  font-size: calc(3vw + 3vh + 2vmin);
+}
+
+.register-page .image-section img {
+  width: 70%;
+}

@@ -1,5 +1,5 @@
 .about-event {
-  padding: 70px;
+  padding: 70px 0 70px 0;
 }
 
 .about-event-title {
@@ -10,7 +10,7 @@
 
 .about-event .event-para {
   font-family: "EB Garamond";
-  text-align: center;
+  text-align: justify;
 }
 
 .about-event .event-image {
@@ -18,30 +18,11 @@
   height: 100%;
   /* background-color: #76aeb8; */
   position: relative;
+  background-image: url("../../assets/images/event12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.about-event .event-image::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-image: url("../../assets/images/building1_half.png");
-  /* width: 100%;
-  height: 62px; */
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 11;
-}
-
-.about-event .event-image::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-image: url("../../assets/images/model1.png");
-  width: 100%;
-  height: 440px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 11;
+.about-event .event-image-sm {
+  height: calc(12vh + 12vw + 5vmin);
 }

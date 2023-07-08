@@ -9,8 +9,9 @@ body {
   padding-left: calc(100vw - 100%) !important;
 }
 
-.navbar {
+.header-height {
   height: 90px;
+  overflow: hidden;
 }
 
 .content {
@@ -36,4 +37,8 @@ body {
 
 #navbar-nav {
   justify-content: flex-end;
+  /* background: #000;
+  border: 3px solid #3d92a2; */
+  position: relative;
+  z-index: 20;
 }

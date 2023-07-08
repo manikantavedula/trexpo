@@ -1,6 +1,12 @@
 #title {
-  height: calc(100vh - 90px - 140px);
   position: relative;
+}
+
+.title-building {
+  height: calc(100vh - 90px - 140px - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img.circle {
@@ -9,14 +15,16 @@ img.circle {
   position: absolute;
   z-index: 1;
   opacity: 0.5;
-  width: calc(85vh);
-  height: calc(85vh);
+  width: calc(30vw + 20vh + 5vmin);
+  height: calc(30vw + 20vh + 5vmin);
 }
 
 #title .title-section {
   align-items: center;
   position: relative;
   z-index: 9;
+  height: 300px;
+  text-align: center;
 }
 
 .title-section .tr-expo {
@@ -28,10 +36,10 @@ img.circle {
 }
 
 .title-section .tr-expo .title {
-  font-size: calc(5vw + 5vh + 2vmin);
+  font-size: calc(5vw + 5vh + 1vmin);
   font-family: "League Spartan";
   font-weight: 700;
-  letter-spacing: -6px;
+  letter-spacing: calc(1vw - 1.4vw);
   color: #000;
 }
 
@@ -46,12 +54,14 @@ img.circle {
 
 .title-section img.title-building {
   width: 100%;
+  height: 100%;
 }
 
 .register {
-  position: absolute;
+  margin-bottom: 20px !important;
+  position: relative;
+  justify-content: center;
   z-index: 9;
-  bottom: 10px;
   text-align: center;
 }
 
@@ -60,13 +70,14 @@ img.circle {
   border-color: black;
   font-weight: bold;
   text-transform: uppercase;
-  width: 250px;
+  width: 100%;
+  height: 40px;
 }
 
 .register button:hover {
   background-color: #3d92a2 !important;
   border-color: #3d92a2 !important;
-  color: #000;
+  color: #fff;
 }
 
 @keyframes arrowAnimation {
@@ -81,6 +92,10 @@ img.circle {
 
 .register div.arrow-down {
   margin: 0 auto;
-  margin-top: 40px;
   animation: arrowAnimation 1s infinite;
+}
+
+.empty-title-space {
+  /* height: calc(100vh - 90px - 140px - 300px - 120px - 3vw - 2vh - 1vmin); */
+  visibility: hidden;
 }

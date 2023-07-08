@@ -1,0 +1,268 @@
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import house from "../../assets/images/media-reach.png";
+import poc1 from "../../assets/images/poc1.png";
+import "./style.css";
+import {
+  IconArticle,
+  IconBadgeAd,
+  IconChalkboard,
+  IconDeviceMobileMessage,
+  IconDeviceTvOld,
+  IconFileHorizontal,
+  IconNews,
+  IconRadio,
+  IconSocial,
+  IconWorldWww,
+} from "@tabler/icons-react";
+
+function AboutUsDetails() {
+  return (
+    <div className="container-fluid">
+      <Row>
+        <Col className="d-none d-sm-none d-md-block">
+          <div className="about-us-image"></div>
+        </Col>
+
+        <Col sm={12} md={6} lg={6}>
+          <div className="container-fluid">
+            <Row>
+              <Col>
+                <div className="about-us-title">About Us</div>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col className="d-block d-sm-block d-md-none">
+                <div className="about-us-sm-image"></div>
+              </Col>
+            </Row>
+
+            <Row>
+              <div className="event-para">
+                We are an event management company called “CONFEX”. We have been
+                a recognised force from the past 6 years in the industry and
+                based out of Hyderabad. We provide End-to-end solutions and
+                integrated range of services to our valuable customers. Working
+                with a team of young, dynamic, enthusiastic, and creative
+                professionals, we are recognised as one of the best solution
+                providers in the industry. <br />
+                As we offer original and exciting entertainment options to match
+                event image and design. We are well known as "One stop shop "
+                for a wide spectrum of event requirements and expertise in Brand
+                Activation, Corporate Events, Exhibitions, Conferences/Seminars,
+                and Fashion Shows.
+              </div>
+            </Row>
+          </div>
+        </Col>
+      </Row>
+
+      <Row>
+        <br />
+        <br />
+      </Row>
+
+      <Row className="why-us">
+        <Col>
+          <div className="container-fluid">
+            <Row>
+              <Col>
+                <div className="about-us-title">Why Us?</div>
+              </Col>
+            </Row>
+
+            <Row>
+              {/* <Col className="d-xs-block d-sm-block d-md-none">
+                <div className="why-us-sm-image1"></div>
+              </Col> */}
+
+              <Col className="d-xs-block d-sm-block d-md-none">
+                <div className="why-us-sm-image2"></div>
+              </Col>
+            </Row>
+
+            <Row>
+              <div className="event-para">
+                1. Individuals and businesses can use TREXPO to display their
+                properties, projects, and services to a vast and diversified
+                audience. It enables developers, agents, and brokers to display
+                their offerings in an immersive and dynamic environment,
+                allowing potential buyers and investors to directly explore
+                various choices. This face-to-face encounter fosters trust,
+                relationships, and effective communication, all of which are
+                critical in the real estate profession. <br />
+                <br />
+                2. TREXPO serves as a knowledge hub, delivering vital insights
+                into the latest real estate trends, market dynamics, and
+                emerging technology. Expert panel discussions, seminars, and
+                workshops are frequently featured, in which industry leaders and
+                professionals share their insights and experiences. This
+                knowledge exchange allows guests to keep current and make
+                informed decisions about their real estate investments. <br />
+                <br />
+                3. TREXPO foster networking opportunities. They bring together
+                people from many industries, including developers, architects,
+                contractors, financiers, and investors. This convergence of
+                varied talents and experience fosters collaborations,
+                partnerships, and corporate growth. It enables participants to
+                network, exchange ideas, and explore potential synergies, all of
+                which can lead to future collaborations and mutual growth.{" "}
+                <br />
+                <br />
+                4. (OR) The economic progress of the host city or region is
+                aided by TREXPO. They draw a great number of visitors, both
+                domestic and foreign, who contribute to the local economy by
+                spending money on lodging, food, transportation, and other
+                services. Furthermore, the publicity generated by these events
+                frequently leads to increased interest and investment in the
+                local real estate market, resulting in higher property sales,
+                construction projects, and job creation.
+              </div>
+            </Row>
+          </div>
+        </Col>
+
+        <Col className="d-none d-sm-none d-md-block">
+          {/* <div className="container-fluid">
+            <Row>
+              <Col> */}
+          <div className="why-us-image1"></div>
+          {/* </Col>
+            </Row>
+            <Row>
+              <Col>
+                <div className="why-us-image2"></div>
+              </Col>
+            </Row>
+          </div> */}
+        </Col>
+      </Row>
+
+      <Row className="media-reach">
+        <Col md={4}>
+          <div className="media-reach-house-column">
+            <div className="media-reach-title">Media Reach</div>
+            <div className="media-reach-house">
+              <img src={house} />
+            </div>
+          </div>
+        </Col>
+
+        <Col className="d-xs-block d-sm-block d-md-none">
+          <br />
+          <br />
+        </Col>
+
+        <Col md={4}>
+          <div className="media-reach-fill-1">
+            <div className="media-reach-fill">
+              <IconArticle /> Print Advertising
+            </div>
+
+            <div className="media-reach-fill">
+              <IconWorldWww /> Online Advertising
+            </div>
+
+            <div className="media-reach-fill">
+              <IconSocial /> Social Advertising
+            </div>
+
+            <div className="media-reach-fill">
+              <IconDeviceMobileMessage /> Influencer Marketing
+            </div>
+
+            <div className="media-reach-fill">
+              <IconBadgeAd /> Press Meets
+            </div>
+          </div>
+        </Col>
+
+        <Col className="d-xs-block d-sm-block d-md-none">
+          <br />
+          <br />
+        </Col>
+
+        <Col md={4}>
+          <div className="media-reach-fill-2">
+            <div className="media-reach-fill">
+              <IconNews /> Newsletters
+            </div>
+
+            <div className="media-reach-fill">
+              <IconChalkboard /> Signage and Billboards
+            </div>
+
+            <div className="media-reach-fill">
+              <IconDeviceTvOld /> Television ADVTG
+            </div>
+
+            <div className="media-reach-fill">
+              <IconRadio /> Radio Announcements
+            </div>
+
+            <div className="media-reach-fill">
+              <IconFileHorizontal /> Flyers and Posters
+            </div>
+          </div>
+        </Col>
+      </Row>
+
+      <Row className="our-pocs d-none">
+        <div className="container-fluid">
+          <Row>
+            <Col>
+              <div className="our-pocs-title">OUR POINT OF CONTACTS</div>
+            </Col>
+          </Row>
+
+          <Row>
+            <br />
+            <br />
+            <br />
+          </Row>
+
+          <Row>
+            <Col md={6}>
+              <div className="container-fluid">
+                <Row>
+                  <Col>
+                    <img src={poc1} className="our-poc-1-img" />
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col>
+                    <div className="our-poc-1"></div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+
+            <Col md={12} className="d-xs-block d-sm-block d-md-none">
+              <br />
+            </Col>
+
+            <Col md={6}>
+              <div className="container-fluid">
+                <Row>
+                  <Col>
+                    <img src={poc1} className="our-poc-1-img" />
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col>
+                    <div className="our-poc-1"></div>
+                  </Col>
+                </Row>
+              </div>
+            </Col>
+          </Row>
+        </div>
+      </Row>
+    </div>
+  );
+}
+
+export default AboutUsDetails;

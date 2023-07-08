@@ -15,24 +15,52 @@ import {
 
 function Footer() {
   return (
-    <footer className="footer footer-center">
+    <footer className="container-fluid footer footer-center">
       <div className="footer-items mail">
         <i>
-          <IconMail />
+          <a href="mailto:info@trexpo.in">
+            <IconMail />
+          </a>
         </i>
-        <p>
+        {/* <p>
           <a href="mailto:info@trexpo.in">info@trexpo.in</a>
-        </p>
-      </div>
-      <div className="footer-items call">
+        </p> */}
+
         <i>
-          <IconPhoneCall />
+          <a href="tel:+919030002078">
+            <IconPhoneCall />
+          </a>
+        </i>
+
+        <i>
+          <a href="https://instagram.com/trexpo_2023?igshid=MzRlODBiNWFlZA==">
+            <IconBrandInstagram />
+          </a>
+        </i>
+
+        <i>
+          <a href="https://www.facebook.com/trexpo2023?mibextid=ZbWKwL">
+            <IconBrandFacebook />
+          </a>
+        </i>
+
+        <i>
+          <a href="https://www.linkedin.com/company/trexpo-2023/">
+            <IconBrandLinkedin />
+          </a>
+        </i>
+      </div>
+      {/* <div className="footer-items call">
+        <i>
+          <a href="tel:+919063214420">
+            <IconPhoneCall />
+          </a>
         </i>
         <p>
           <a href="tel:+919063214420">+91 9063214420</a>
         </p>
-      </div>
-      <div className="footer-items">
+      </div> */}
+      {/* <div className="footer-items">
         <i>
           <IconBrandInstagram />
         </i>
@@ -44,7 +72,7 @@ function Footer() {
         <i>
           <IconBrandLinkedin />
         </i>
-      </div>
+      </div> */}
     </footer>
   );
 }

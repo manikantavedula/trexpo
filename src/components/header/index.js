@@ -9,6 +9,8 @@ import "./style.css";
 const Header = () => {
   const location = useLocation();
   const [selectedTab, setSelectedTab] = useState(0);
+  const [headerHeight, setHeaderHeight] = useState(true);
+
   const navItems = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about-us" },
@@ -29,15 +31,26 @@ const Header = () => {
     setSelectedTab(index);
   };
 
+  const handleHeaderHeight = () => {
+    setHeaderHeight((prevHeaderHeight) => !prevHeaderHeight);
+  };
+
   return (
     <>
-      <Navbar bg="#d3dade" expand="lg" className="header">
+      <Navbar
+        bg="#d3dade"
+        expand="lg"
+        className={`header ${headerHeight && "header-height"}`}
+      >
         <Container>
           <Navbar.Brand href="#home">
             <img src={logo} alt="Logo" width={120} />
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="navbar-nav"
+            onClick={handleHeaderHeight}
+          />
 
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ml-auto">

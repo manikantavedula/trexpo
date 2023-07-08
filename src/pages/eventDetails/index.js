@@ -1,11 +1,13 @@
 import React from "react";
+import AboutEvent from "../../components/aboutEvent";
 import "./style.css";
-import HomeEvent from "../../components/aboutEvent";
+import Agenda from "../../components/agenda";
 
 const Home = () => {
   return (
     <div className="event-details">
-      <HomeEvent />
+      <AboutEvent />
+      <Agenda />
     </div>
   );
 };
